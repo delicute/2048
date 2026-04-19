@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <title>2048</title>
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="panel">
-                <div class="title">2048</div>
-                <div class="score">Score: <span></span></div>
-                <div class="timer">Timer: <span></span></div>
-                <div class="hint">
-                    Hint<br>
-                    Control with <strong>WASD.</strong>.<br>
-                    Merge the same tiles to reach <span style="color:gold;text-shadow:0 0 10px gold;">2048</span> and win.<br>
-                    In fact, this is all <i>nonsense</i>...<br>
-                </div>
-                <div class="reset">Restart</div>
-            </div>
-            <div class="grid"></div>
-            <div class="message"></div>
-        </div>
-        <footer class="tip">免责声明：本作的美术确实堪忧，凑合看看吧 : )</footer>
-        <script src="script.js"></script>
-    </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>2048</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="panel">
+      <div class="title">2048</div>
+      <div class="score">Score: <span></span></div>
+      <div class="timer">Timer: <span></span></div>
+      <div class="hint">
+        <strong style="font-size:20px;">Hint</strong><br>
+        Control with <strong>WASD</strong>.<br>
+        Merge the same tiles to reach <span style="color:gold;text-shadow:0 0 10px gold;font-weight:500;">2048</span> for victory.<br>
+        In fact, this is all <em>nonsense</em>...<br>
+      </div>
+      <div class="undo">Undo</div>
+      <div class="restart">Restart</div>
+    </div>
+    <div class="grid"></div>
+    <div class="message"></div>
+  </div>
+  <div class="disclaimer">免责声明：本作的美术确实堪忧，凑合看看吧 : (</div>
+  <script src="script.js"></script>
+</body>
 </html>
